@@ -10,9 +10,9 @@
 
 联系邮箱 `hi@55lab.top` 与开发团队 `5.5 LAB` 按现有 App 工程资料填写。正式提交 App Store 前，请实际运营方核对政策内容和联系信息。
 
-计划发布仓库：`colin1618/youhuakeji-privacy`
+GitHub 仓库：<https://github.com/colin1618/youhuakeji-privacy>
 
-- 隐私政策：`https://colin1618.github.io/youhuakeji-privacy/privacy.html`
-- 技术支持：`https://colin1618.github.io/youhuakeji-privacy/support.html`
+- 隐私政策：<https://colin1618.github.io/youhuakeji-privacy/privacy.html>
+- 技术支持：<https://colin1618.github.io/youhuakeji-privacy/support.html>
 
-以上地址只有在公开仓库创建、启用 GitHub Pages 并完成构建后才会生效。
+GitHub Pages 已启用并完成首次构建。公开网站仅包含这几个静态页面，不包含 App 源码或用户数据。
