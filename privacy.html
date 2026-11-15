@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fb">
+  <meta name="description" content="有话可记如何处理日记、iCloud 同步、位置天气与购买数据。">
+  <title>隐私政策 · 有话可记</title>
+  <style>
+    :root { color-scheme: light dark; --brand: #3D61D9; --ink: #202433; --muted: #697080; --paper: #f7f8fb; --card: #fff; --line: #e7e9ef; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #f1f2f5; --muted: #aeb3c0; --paper: #13151a; --card: #1c1f26; --line: #30343e; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.75 -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", sans-serif; }
+    main { width: min(800px, calc(100% - 32px)); margin: 40px auto 64px; }
+    .top { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 24px; }
+    .brand { color: var(--muted); text-decoration: none; }
+    h1 { margin: 8px 0; font-size: clamp(28px, 5vw, 38px); line-height: 1.25; letter-spacing: -.03em; }
+    h2 { margin: 30px 0 8px; font-size: 20px; }
+    p, li { color: var(--ink); }
+    .muted, time { color: var(--muted); }
+    .card { padding: 24px clamp(18px, 5vw, 32px); border: 1px solid var(--line); border-radius: 18px; background: var(--card); }
+    a { color: var(--brand); }
+    ul { padding-left: 1.3em; }
+    footer { margin-top: 30px; color: var(--muted); font-size: 14px; }
+    .en { margin-top: 44px; padding-top: 32px; border-top: 1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="top"><a class="brand" href="index.html">← 有话可记</a><a href="support.html">技术支持</a></div>
+    <article class="card" lang="zh-Hans">
+      <h1>隐私政策</h1>
+      <p class="muted">生效日期：2026 年 11 月 15 日</p>
+      <p>有话可记（以下简称“本应用”）是一款由 5.5 LAB 提供的文字日记应用。本政策说明本应用如何处理你的日记、iCloud 同步、位置天气和购买相关信息。</p>
+
+      <h2>日记与 iCloud 同步</h2>
+      <p>日记默认保存在当前设备。你可以在应用设置中主动开启 iCloud 同步；开启后，日记通过 Apple CloudKit 保存到你自己的 iCloud 私有数据库，并可在使用同一 Apple 账户的支持设备间同步。开发团队不运营自己的日记内容服务器，也不会读取你的日记内容。</p>
+      <p>你可以在应用中把日记移入回收站、恢复或永久删除。永久删除后，本应用会从当前数据容器移除该记录。iCloud 同步、Apple 设备备份及其保留周期由 Apple 的服务和账户设置管理；云端副本清理可能需要等待同步完成。</p>
+
+      <h2>位置与天气</h2>
+      <p>只有在你主动选择获取当前位置天气时，本应用才请求位置权限并获取一次当前位置。位置会交由 Apple MapKit 用于识别城市，并交由 Apple WeatherKit 查询当前天气。你可以拒绝定位权限，改为手动填写城市与天气。</p>
+      <p>本应用保存你选择写入日记的城市名称、天气状况和 Apple Weather 来源署名，不把经纬度保存为日记字段。Apple 对其系统服务数据的处理受 Apple 隐私政策和相应服务条款约束。</p>
+
+      <h2>应用锁与购买</h2>
+      <p>Face ID、Touch ID 或设备密码由 Apple 系统认证框架处理，本应用不会读取或保存你的生物识别数据。若你设置 4 位数字密码，本应用会将密码验证资料保存在设备 Keychain，不保存明文密码。</p>
+      <p>Pro 购买、订阅、取消、退款和付款信息由 Apple App Store 处理。本应用通过 StoreKit 接收商品与权益状态，不接触完整支付卡信息。</p>
+
+      <h2>提醒、邮件与第三方服务</h2>
+      <p>每日提醒由设备本地通知安排。点击建议反馈后，系统会打开你选择的邮件客户端；只有在你确认发送后，邮件内容才会发送给我们。</p>
+      <p>当前版本使用 Apple 的 iCloud、MapKit、WeatherKit、LocalAuthentication 和 StoreKit 系统服务；不含广告，不集成第三方行为分析或广告跟踪 SDK。若未来服务或数据处理方式发生变化，我们会更新本政策。</p>
+
+      <h2>数据保留与你的选择</h2>
+      <ul>
+        <li>日记会在你保留期间存储于本机；开启同步时，也会存储于你的 iCloud 私有数据库。</li>
+        <li>可在系统设置中管理位置授权，在本应用设置中管理 iCloud 同步和提醒。</li>
+        <li>可从回收站恢复日记，或选择永久删除。已同步设备需要联网并等待同步完成。</li>
+        <li>设备卸载、系统备份和 iCloud 数据管理遵循 Apple 对应的平台行为和条款。</li>
+      </ul>
+
+      <h2>儿童隐私</h2>
+      <p>本应用不是专为儿童设计的服务，也不会要求创建账户或提交个人资料。家长或监护人如对儿童使用和数据处理有疑问，请通过下方方式联系我们。</p>
+
+      <h2>政策更新与联系我们</h2>
+      <p>本应用由 5.5 LAB 开发与维护。我们可能会因功能或法律要求更新本政策，并在此页面公布更新版本。隐私问题请联系 <a href="mailto:hi@55lab.top">hi@55lab.top</a>。</p>
+    </article>
+
+    <article class="card en" lang="en">
+      <h1>Privacy Policy</h1>
+      <p class="muted">Effective date: November 15, 2026</p>
+      <p>MentLog is a text journaling app provided by 5.5 LAB. This policy explains how the app handles journal entries, iCloud sync, location and weather, and purchases.</p>
+
+      <h2>Journal entries and iCloud</h2>
+      <p>Entries are stored on your device by default. If you turn on iCloud sync in the app, entries are stored in your private iCloud database using Apple CloudKit and can sync across supported devices signed in to the same Apple Account. The development team does not operate its own journal-content server and does not read your entries.</p>
+      <p>You can move entries to Recently Deleted, restore them, or delete them permanently. Permanent deletion removes the entry from the app's current data container. Apple manages iCloud sync, device backups, and their retention under its services and account settings. Cloud copies may take time to clear while devices sync.</p>
+
+      <h2>Location and weather</h2>
+      <p>The app requests location access only when you choose to fetch current weather. Your current location is provided to Apple MapKit to identify a city and to Apple WeatherKit to retrieve current conditions. You can deny location access and enter a city and weather manually.</p>
+      <p>The app saves the city, weather condition, and Apple Weather attribution that you choose to add to an entry. It does not save latitude or longitude as journal fields. Apple's handling of data for its system services is governed by Apple's privacy policy and applicable service terms.</p>
+
+      <h2>App lock and purchases</h2>
+      <p>Face ID, Touch ID, and device-passcode checks are handled by Apple's authentication frameworks. The app does not access or store biometric data. If you set a 4-digit passcode, a verifier is stored in the device Keychain; the plain-text passcode is not stored.</p>
+      <p>Apple App Store handles Pro purchases, subscriptions, cancellation, refunds, and payment information. The app receives product and entitlement status through StoreKit and does not access full payment-card information.</p>
+
+      <h2>Reminders, email, and services</h2>
+      <p>Daily reminders are scheduled as local notifications on your device. Tapping feedback opens your chosen mail app; an email is sent to us only if you choose to send it.</p>
+      <p>The current version uses Apple's iCloud, MapKit, WeatherKit, LocalAuthentication, and StoreKit services. It contains no ads and does not integrate third-party behavioral analytics or advertising-tracking SDKs. We will update this policy if our features or data practices change.</p>
+
+      <h2>Retention and your choices</h2>
+      <ul>
+        <li>Entries remain on your device while you keep them; with sync enabled, they are also stored in your private iCloud database.</li>
+        <li>Manage location permission in system settings and iCloud sync or reminders in the app.</li>
+        <li>Restore entries from Recently Deleted or permanently delete them. Synced devices need an internet connection and time to finish syncing.</li>
+        <li>Uninstallation, system backups, and iCloud data management follow the applicable Apple platform behavior and terms.</li>
+      </ul>
+
+      <h2>Children's privacy</h2>
+      <p>This app is not designed specifically for children. It does not require an account or ask users to submit personal details. Parents or guardians may contact us with questions about a child's use of the app.</p>
+
+      <h2>Changes and contact</h2>
+      <p>We may update this policy when our features or legal requirements change. The current version will be posted on this page. Contact us at <a href="mailto:hi@55lab.top">hi@55lab.top</a>.</p>
+      <p class="muted">MentLog is developed and maintained by 5.5 LAB.</p>
+    </article>
+    <footer><a href="index.html">首页</a> · <a href="support.html">技术支持</a></footer>
+  </main>
+</body>
+</html>
